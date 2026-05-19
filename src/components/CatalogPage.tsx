@@ -28,7 +28,7 @@ export function CatalogPage() {
         <div className="mb-8">
           <h3 className="text-sm font-bold mb-4 tracking-wide">WELCOME</h3>
           <p className="text-xs leading-relaxed max-w-4xl">
-            Welcome ladies. Here is the catalog I've been raving about on my pinterest pins... and tiktoks. I thought browsing a page like this would be better and just easier than scrolling through my pins, not being sure which one of the items in the picture would be linked this time. As you know, everything here is from Amazon. Nothing below a 4-star rating. Happy shopping, happy decorating. <em>- Sayce</em>
+            Welcome ladies. Here is the catalog I've been raving about on my pinterest pins... and tiktoks. I thought browsing a page like this would be better and just easier than scrolling through my pins, not being sure which one of the items in the picture would be linked this time. As you know, everything here is from Amazon. <strong>Nothing below a 4-star rating.</strong> Happy shopping, happy decorating. <em>- Sayce</em>
           </p>
           <p className="text-xs italic text-gray-500 mt-2">
             *Commissions may be earned.
