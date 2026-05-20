@@ -397,8 +397,8 @@ export function CatalogPage() {
               {/* Sixteenth Product - Irregular Flannel-Wrapped Mirror */}
               <div className="group cursor-pointer">
                 <div className="aspect-square bg-white overflow-hidden mb-3">
-                  <img 
-                    src="/funmirror.png"
+                  <img
+                    src="/funflannelmirror.png"
                     alt="Irregular Flannel-Wrapped Mirror"
                     className="w-full h-full object-contain"
                   />
