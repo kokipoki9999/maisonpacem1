@@ -415,6 +415,28 @@ export function CatalogPage() {
                   Link
                 </a>
               </div>
+
+              {/* Seventeenth Product - Scented Ribbed Pillar Candle Set */}
+              <div className="group cursor-pointer">
+                <div className="aspect-square bg-white overflow-hidden mb-3">
+                  <img
+                    src="/ribbed-pillar-candle-set.png"
+                    alt="Scented Ribbed Pillar Candle Set"
+                    className="w-full h-full object-contain"
+                  />
+                </div>
+                <h3 className="text-sm font-medium text-gray-900">Scented Ribbed Pillar Candle Set</h3>
+                <p className="text-xs text-gray-600 mt-1 mb-2">Set of two 100% natural, food-grade soy wax and lead-free cotton wicks decorative scented candles.</p>
+                <a
+                  href="https://www.amazon.com/Aesthetic-Sandalwood-Minimalist-Geometric-Sculptural/dp/B0FX9L5RLQ?crid=13YKI5EU8RLYX&dib=eyJ2IjoiMSJ9.Mk_ImbgVMK-106KFLrOnAy04HptVR37jV2XI0m6K_RLcFU-ZpsP6bpNuMZBOLxKxXGahFZkbqOrHzFeWuUlN9IcWPCidlnzwe4f_2vjIt9bDeE43EyBuuzSA1J14kLd567iyjtPUiOzTUYA_vd1AhtmwuZb00RAf2NugyRZtq5x6LBGP8dabjsV4zWjFWqRkdvBggFht2LbCDYGrsxm38ak5VQX7H_8iul247gH3GabN32dTbKcRPZmhF_sIj-WnTheo5VjYIfEz4L3KeLYFV2Cd1cdgtJwLdm0-fR49FW4.0WDxi9gl2izFvbr0vQDDJ9SpZsbpayt7Ks0X3pA3sPs&dib_tag=se&keywords=lawa+hourglass+pillar+candle+-+large+beautiful+handmade+pillar+scented+soy+wax+elegant+bubble+aesthetic+candle+housewarming+gift+home+room+shelf+decor+idea+-+white+%28set+of+2%29&nsdOptOutParam=true&qid=1779398420&sprefix=%2Caps%2C246&sr=8-13&linkCode=ll2&tag=maisonpacem05-20&linkId=d0f7fbc7f8341a05b40fe7f30faa0b1c&language=en_US&ref_=as_li_ss_tl"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="mt-2 inline-flex items-center gap-1.5 px-3 py-1.5 text-xs bg-black text-white rounded-md hover:bg-gray-800 hover:scale-105 transition-all duration-200 ease-in-out shadow-sm hover:shadow-md"
+                >
+                  <img src="/amazon-logo.svg" alt="Amazon" className="w-3 h-3 filter brightness-0 invert" />
+                  Link
+                </a>
+              </div>
             </div>
           </div>
         </div>
