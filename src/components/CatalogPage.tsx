@@ -437,6 +437,28 @@ export function CatalogPage() {
                   Link
                 </a>
               </div>
+
+              {/* Eighteenth Product - Travertine Stone Candle Holders */}
+              <div className="group cursor-pointer">
+                <div className="aspect-square bg-white overflow-hidden mb-3">
+                  <img
+                    src="/candleholders.png"
+                    alt="100% Travertine Stone Candle Holders From Turkey (Set of 2)"
+                    className="w-full h-full object-contain"
+                  />
+                </div>
+                <h3 className="text-sm font-medium text-gray-900">100% Travertine Stone Candle Holders From Turkey (Set of 2)</h3>
+                <p className="text-xs text-gray-600 mt-1 mb-2">Set of two candle holders made from 100% natural travertine stone from Turkey, hand-carved. No two pieces are the same.</p>
+                <a
+                  href="https://www.amazon.com/WORHE-Holders-Natural-Travertine-Candlestick/dp/B094QCMTJJ?crid=9GCCXL76PQJR&dib=eyJ2IjoiMSJ9.a8_by3yxuPjorhUAlbffBtoE6vIilIyDIjU1BrsJAMRwMlDYoqpD0qGuanMVkEGYNZRw_2I-361O4e5WySYvk2E54O9T6HzFT4TsMaF_FTYUI2OX5N4ZvxqJB9wPnTtJH-Ke-FtUhoctEf-H0MrL0KGnQCAI674VQsI71D0ZxKPqc1kEjhQdTogmL_eeZHencTwyA-7rqZLWGzy0tSMOEp9J7NJTibrXP_CITxu22NZwxscMAHmn1VvZmrDX8_--PtLQFux_oCqTkfSaAL1sv468axS3lurDaIPvPsMXoNM.lrR25tJDmPsnHsDodnXRE9ufGAPctREYRP9sUZnnhN4&dib_tag=se&keywords=True%2BNatural%2BTravertine%2BStone&qid=1779739506&sprefix=true%2Bnatural%2Btravertine%2Bstone%2Caps%2C114&sr=8-6&th=1&linkCode=ll2&tag=maisonpacem05-20&linkId=960c078ca8e8b0ef6f8c562f3cb17838&language=en_US&ref_=as_li_ss_tl"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="mt-2 inline-flex items-center gap-1.5 px-3 py-1.5 text-xs bg-black text-white rounded-md hover:bg-gray-800 hover:scale-105 transition-all duration-200 ease-in-out shadow-sm hover:shadow-md"
+                >
+                  <img src="/amazon-logo.svg" alt="Amazon" className="w-3 h-3 filter brightness-0 invert" />
+                  Link
+                </a>
+              </div>
             </div>
           </div>
         </div>
