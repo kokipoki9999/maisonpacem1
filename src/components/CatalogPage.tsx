@@ -442,7 +442,7 @@ export function CatalogPage() {
               <div className="group cursor-pointer">
                 <div className="aspect-square bg-white overflow-hidden mb-3">
                   <img
-                    src="/Capture_d'écran,_le_2026-05-25_à_16.38.23.png"
+                    src="/candleholders.png"
                     alt="100% Travertine Stone Candle Holders From Turkey (Set of 2)"
                     className="w-full h-full object-contain"
                   />
