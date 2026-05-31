@@ -459,6 +459,28 @@ export function CatalogPage() {
                   Link
                 </a>
               </div>
+
+              {/* Nineteenth Product - Lifelike Tulip Stems */}
+              <div className="group cursor-pointer">
+                <div className="aspect-square bg-white overflow-hidden mb-3">
+                  <img
+                    src="/tulip-stems-decor.jpg"
+                    alt="Lifelike Tulip Stems"
+                    className="w-full h-full object-contain"
+                  />
+                </div>
+                <h3 className="text-sm font-medium text-gray-900">Lifelike Tulip Stems</h3>
+                <p className="text-xs text-gray-600 mt-1 mb-2">Tulips with a velvety, life-like feel that mimics the organic moisture of fresh blooms. Wide variety of colors available (Light Brown, Grape Purple, Burgundy, etc.).</p>
+                <a
+                  href="https://www.amazon.com/Mandys-Flowers-Artificial-Kitchen-Decorations/dp/B09BYKKLTX?_encoding=UTF8&pd_rd_w=htAGn&content-id=amzn1.sym.a6dce754-9901-41a6-a629-a32800521c61%3Aamzn1.symc.5a16118f-86f0-44cd-8e3e-6c5f82df43d0&pf_rd_p=a6dce754-9901-41a6-a629-a32800521c61&pf_rd_r=A9JHMQBQGTJETMREH404&pd_rd_wg=MEKrJ&pd_rd_r=545995b8-45e9-404f-95fc-ee0878a2c522&th=1&linkCode=ll2&tag=maisonpacem05-20&linkId=a9103b1443c296edf65d4494e006bb38&language=en_US&ref_=as_li_ss_tl"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="mt-2 inline-flex items-center gap-1.5 px-3 py-1.5 text-xs bg-black text-white rounded-md hover:bg-gray-800 hover:scale-105 transition-all duration-200 ease-in-out shadow-sm hover:shadow-md"
+                >
+                  <img src="/amazon-logo.svg" alt="Amazon" className="w-3 h-3 filter brightness-0 invert" />
+                  Link
+                </a>
+              </div>
             </div>
           </div>
         </div>
