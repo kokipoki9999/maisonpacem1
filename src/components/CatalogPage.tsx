@@ -481,6 +481,28 @@ export function CatalogPage() {
                   Link
                 </a>
               </div>
+
+              {/* Twentieth Product - The Vintage Mirror */}
+              <div className="group cursor-pointer">
+                <div className="aspect-square bg-white overflow-hidden mb-3">
+                  <img
+                    src="/vintage-mirror.jpg"
+                    alt="The Vintage Mirror"
+                    className="w-full h-full object-contain"
+                  />
+                </div>
+                <h3 className="text-sm font-medium text-gray-900">The Vintage Mirror</h3>
+                <p className="text-xs text-gray-600 mt-1 mb-2">Vintage mirrors with arched silhouettes and intricate flower patterns/detailing.</p>
+                <a
+                  href="https://www.amazon.com/WallBeyond-Vintage-Bathroom-Fireplace-Entryway/dp/B0DDBNYGK8?crid=F3LZYXHVCGD7&dib=eyJ2IjoiMSJ9.6hfDJ8UAD1LH6yi_5h7Uh7BIDWXAklI991xK12H9xeWRKgF2Ee-BDCJ14nrfGcuGMH87JRXAFpRNQf_xGH4GHDT4_vWx3d4CwFPLs3kT_p80S6VZ84CUA0XqUnQknejyR-2Xm-GwS-usV3Ze3sBzFQozLDsUgmuGSRNGokwPVh7hOWqxWVI4DZPusOsMCTahCviTX4M589DI8YsYEcdW2Hsic0NiTrhjx_uw_K0A19zy8s0wOb-DV-zXEv2WDHl3QYdPQHeaCo14Ho41Z2XmPLM62FcKkF1-VyB03GMhb80.ypxMs363WitH_i0G9xaIODij1F5KgT55dOplG7FfAhI&dib_tag=se&keywords=vWallBeyond%2BGold%2BVintage%2BMirror%2Bfor%2BVanity%2B22x30%2BInch%2C%2BGold%2BAntique%2BMirror%2Bwith%2BOrnate%2BFrame%2C%2BArched%2BVintage%2BWall%2Bfor%2BBathroom%2C%2BLiving%2BRoom%2C%2BFireplace%2C%2BEntryway&nsdOptOutParam=true&qid=1780343961&sprefix=vwallbeyond%2Bgold%2Bvintage%2Bmirror%2Bfor%2Bvanity%2B22x30%2Binch%2C%2Bgold%2Bantique%2Bmirror%2Bwith%2Bornate%2Bframe%2C%2Barched%2Bvintage%2Bwall%2Bfor%2Bbathroom%2C%2Bliving%2Broom%2C%2Bfireplace%2C%2Bentryway%2Caps%2C611&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&th=1&linkCode=ll2&tag=maisonpacem05-20&linkId=5b530e924ba33e2eba91d45ce77fb909&language=en_US&ref_=as_li_ss_tl"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="mt-2 inline-flex items-center gap-1.5 px-3 py-1.5 text-xs bg-black text-white rounded-md hover:bg-gray-800 hover:scale-105 transition-all duration-200 ease-in-out shadow-sm hover:shadow-md"
+                >
+                  <img src="/amazon-logo.svg" alt="Amazon" className="w-3 h-3 filter brightness-0 invert" />
+                  Link
+                </a>
+              </div>
             </div>
           </div>
         </div>
