@@ -486,9 +486,9 @@ export function CatalogPage() {
               <div className="group cursor-pointer">
                 <div className="aspect-square bg-white overflow-hidden mb-3">
                   <img
-                    src="https://images.pexels.com/photos/5691668/pexels-photo-5691668.jpeg?auto=compress&cs=tinysrgb&w=600"
+                    src="/vintage-mirror copy.jpg"
                     alt="The Vintage Mirror"
-                    className="w-full h-full object-cover"
+                    className="w-full h-full object-contain"
                   />
                 </div>
                 <h3 className="text-sm font-medium text-gray-900">The Vintage Mirror</h3>
