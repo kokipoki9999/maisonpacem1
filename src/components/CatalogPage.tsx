@@ -503,6 +503,28 @@ export function CatalogPage() {
                   Link
                 </a>
               </div>
+
+              {/* Twenty-First Product - Faux Silk Peonies */}
+              <div className="group cursor-pointer">
+                <div className="aspect-square bg-white overflow-hidden mb-3">
+                  <img
+                    src="/faux-silk-peonies-for-decor-bedroom-wedding.png"
+                    alt="Faux Silk Peonies"
+                    className="w-full h-full object-contain"
+                  />
+                </div>
+                <h3 className="text-sm font-medium text-gray-900">Faux Silk Peonies</h3>
+                <p className="text-xs text-gray-600 mt-1 mb-2">Faux peonies with delicate, synthetic silk petals. Bendable stems for easy styling. Does not need watering, will never wilt. Just dust once in a while. 5 other (well-picked) colour options are available.</p>
+                <a
+                  href="https://www.amazon.com/dp/B0G5YFGNW8/ref=sspa_dk_detail_4?pd_rd_i=B0G5YFGNW8&pd_rd_w=bYNBs&content-id=amzn1.sym.af2be12d-373e-4c68-a933-d40df60554fe&pf_rd_p=af2be12d-373e-4c68-a933-d40df60554fe&pf_rd_r=5ZRRGE3ZTZDMWCEMQE3P&pd_rd_wg=r6HY1&pd_rd_r=feb3181b-8d7d-44c2-a66a-141b4b794d5f&sp_csd=d2lkZ2V0TmFtZT1zcF9kZXRhaWxfdGhlbWF0aWM&th=1"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="mt-2 inline-flex items-center gap-1.5 px-3 py-1.5 text-xs bg-black text-white rounded-md hover:bg-gray-800 hover:scale-105 transition-all duration-200 ease-in-out shadow-sm hover:shadow-md"
+                >
+                  <img src="/amazon-logo.svg" alt="Amazon" className="w-3 h-3 filter brightness-0 invert" />
+                  Link
+                </a>
+              </div>
             </div>
           </div>
         </div>
