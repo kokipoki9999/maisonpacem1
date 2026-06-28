@@ -547,6 +547,28 @@ export function CatalogPage() {
                   Link
                 </a>
               </div>
+
+              {/* Twenty-Third Product - Smoked Glass Vase */}
+              <div className="group cursor-pointer">
+                <div className="aspect-square bg-white overflow-hidden mb-3">
+                  <img
+                    src="/contemporary-clear-smoked-plant-glass-vase.png"
+                    alt="Smoked Glass Vase"
+                    className="w-full h-full object-contain"
+                  />
+                </div>
+                <h3 className="text-sm font-medium text-gray-900">Smoked Glass Vase</h3>
+                <p className="text-xs text-gray-600 mt-1 mb-2">7 inches in diameter, 10 inches tall, with a 2.5-inch opening. For entryway tables, coffee tables, dining tables, bathrooms and study desks.</p>
+                <a
+                  href="https://www.amazon.com/GeLive-Vase-Glass-Clear-Centerpiece/dp/B0BZVN3T6D?crid=35IZ4CBJ0M7VK&dib=eyJ2IjoiMSJ9._M5Kekea99avVSy8wDaN3t8vd4FUvCG0E54mXLcQ3YgIXqKI6kECA7pOmW51687L5xmFjBvvxbdhOLJlKLudiWtkfdl8KCWS2phBAAJ66bMFLr_A7QZpsn494uN4E-arnJBHGR0PyAkSAIbLCFYwpqUr6YvdUmtILVYG3z3P5ilYmHpY0HCSLXbEem7DG6xWnl1duClWNnWDYdnzUsQGTBTEQyt2iiQMfdeV4llmTVvNkDHVGUf73xXXxSwc0aPZtasVXpBuTvs2tygYWkQvXHr77U8Ogm_afLhMEFkPXvQ.MLXkPOyrKutNcZHeH-OCguI5l8lcyXQ-b4p3letmWKE&dib_tag=se&keywords=contemporary%2Bvase&qid=1782674191&sprefix=contemporary%2Bvas%2Caps%2C148&sr=8-6&th=1&linkCode=ll2&tag=maisonpacem05-20&linkId=9b2143916657c073349a20c0ec2fa852&language=en_US&ref_=as_li_ss_tl"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="mt-2 inline-flex items-center gap-1.5 px-3 py-1.5 text-xs bg-black text-white rounded-md hover:bg-gray-800 hover:scale-105 transition-all duration-200 ease-in-out shadow-sm hover:shadow-md"
+                >
+                  <img src="/amazon-logo.svg" alt="Amazon" className="w-3 h-3 filter brightness-0 invert" />
+                  Link
+                </a>
+              </div>
             </div>
           </div>
         </div>
