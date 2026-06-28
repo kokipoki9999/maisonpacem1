@@ -525,6 +525,28 @@ export function CatalogPage() {
                   Link
                 </a>
               </div>
+
+              {/* Twenty-Second Product - Rustic Terracotta Vase */}
+              <div className="group cursor-pointer">
+                <div className="aspect-square bg-white overflow-hidden mb-3">
+                  <img
+                    src="/contemporary-rustic-decorative-vase.png"
+                    alt="Rustic Terracotta Vase"
+                    className="w-full h-full object-contain"
+                  />
+                </div>
+                <h3 className="text-sm font-medium text-gray-900">Rustic Terracotta Vase</h3>
+                <p className="text-xs text-gray-600 mt-1 mb-2">Stone vase with purely handmade surface effect—each vase is not exactly the same. Packed firmly and wrapped in bubble wrap. Amazon's Choice.</p>
+                <a
+                  href="https://www.amazon.com/Farmhouse-Terracotta-Vintage-Suitable-ZSHLXM/dp/B0DL9HKKH8?crid=18ZCCVVX2TQXW&dib=eyJ2IjoiMSJ9.Z92rMQc1aQ0OpND9oXYw6vLu0IcQFHhT1aCUUssoNgtMyR_Fhdyi5gXIqbYp-P43gSxnkAd0lh3eq-_usxVmetsquJ_YICx3FwlwDu7sUT8o3zZhP8_DcFAXsHxiasxuDsFU9e9cm7yav13U3oSPpIRaGurkD3dQIAcDWNHpa33ay-FALDpeX6V3jMOqRsfLnwt0noWpbnKre8C3G6viSIpG-bT1olxd9HNehGpzLrDUeLsAHfwPe1k41O7iqDqfgMnsSqGWJC16BwnC2cfe_Fj9YA3AW1B3nDere35LyjE.5dj_D7u38IJA_d4zxrceouGest9qZB2STuZU-R8irI4&dib_tag=se&keywords=aesthetic%2Bvase&qid=1782605419&sprefix=aesthetic%2Bvas%2Caps%2C150&sr=8-39&th=1&linkCode=ll2&tag=maisonpacem05-20&linkId=a93dbcb0840d9ae6ad399dbe56642eb2&language=en_US&ref_=as_li_ss_tl"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="mt-2 inline-flex items-center gap-1.5 px-3 py-1.5 text-xs bg-black text-white rounded-md hover:bg-gray-800 hover:scale-105 transition-all duration-200 ease-in-out shadow-sm hover:shadow-md"
+                >
+                  <img src="/amazon-logo.svg" alt="Amazon" className="w-3 h-3 filter brightness-0 invert" />
+                  Link
+                </a>
+              </div>
             </div>
           </div>
         </div>
