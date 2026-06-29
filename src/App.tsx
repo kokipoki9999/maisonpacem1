@@ -6,12 +6,7 @@ import { CatalogPage } from './components/CatalogPage';
 function App() {
   return (
     <Routes>
-      <Route path="/" element={
-        <div className="min-h-screen bg-gradient-to-br from-gray-50 to-gray-100">
-          <MediumCircularRevealHeadingDemo />
-        </div>
-      } />
-      <Route path="/catalog" element={<CatalogPage />} />
+      <Route path="/" element={<CatalogPage />} />
     </Routes>
   );
 }
