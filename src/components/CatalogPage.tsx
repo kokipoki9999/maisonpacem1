@@ -35,9 +35,9 @@ export function CatalogPage() {
           </p>
         </div>
 
-        <div className="flex">
+        <div className="flex flex-col md:flex-row">
           {/* Left Sidebar */}
-          <div className="w-64 pr-8">
+          <div className="hidden md:block w-64 pr-8">
             {/* Categories */}
             <div className="mb-8">
               <h3 className="text-sm font-medium mb-4">CATÉGORIES</h3>
@@ -62,9 +62,9 @@ export function CatalogPage() {
             </div>
 
             {/* Product Grid */}
-            <div className="grid grid-cols-2 lg:grid-cols-4 gap-8">
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
               {/* First Product - Tabletop Water Fountain */}
-              <div className="group cursor-pointer">
+              <div className="group cursor-pointer flex flex-col items-center text-center sm:items-start sm:text-left">
                 <div className="aspect-square bg-white overflow-hidden mb-3">
                   <img 
                     src="/fancyfountaindecor.jpg"
@@ -86,7 +86,7 @@ export function CatalogPage() {
               </div>
               
               {/* Second Product - Bubble Throw Blanket */}
-              <div className="group cursor-pointer">
+              <div className="group cursor-pointer flex flex-col items-center text-center sm:items-start sm:text-left">
                 <div className="aspect-square bg-white overflow-hidden mb-3">
                   <img 
                     src="/rabbitfurthrow.png"
@@ -109,7 +109,7 @@ export function CatalogPage() {
               
               {/* Empty product containers */}
               {/* Third Product - L'Olivier */}
-              <div className="group cursor-pointer">
+              <div className="group cursor-pointer flex flex-col items-center text-center sm:items-start sm:text-left">
                 <div className="aspect-square bg-white overflow-hidden mb-3">
                   <img 
                     src="/theolivetreefinal.png"
@@ -131,7 +131,7 @@ export function CatalogPage() {
               </div>
               
               {/* Fourth Product - The Basket */}
-              <div className="group cursor-pointer">
+              <div className="group cursor-pointer flex flex-col items-center text-center sm:items-start sm:text-left">
                 <div className="aspect-square bg-white overflow-hidden mb-3">
                   <img 
                     src="/largestoragebasket.png"
@@ -153,7 +153,7 @@ export function CatalogPage() {
               </div>
               
               {/* Fifth Product - The Small Trio */}
-              <div className="group cursor-pointer">
+              <div className="group cursor-pointer flex flex-col items-center text-center sm:items-start sm:text-left">
                 <div className="aspect-square bg-white overflow-hidden mb-3">
                   <img 
                     src="/triominivase.png"
@@ -175,7 +175,7 @@ export function CatalogPage() {
               </div>
               
               {/* Sixth Product - Marble Bowl */}
-              <div className="group cursor-pointer">
+              <div className="group cursor-pointer flex flex-col items-center text-center sm:items-start sm:text-left">
                 <div className="aspect-square bg-white overflow-hidden mb-3">
                   <img 
                     src="/marblebowl.png"
@@ -197,7 +197,7 @@ export function CatalogPage() {
               </div>
               
               {/* Seventh Product - Large Ceramic Rustic Vase */}
-              <div className="group cursor-pointer">
+              <div className="group cursor-pointer flex flex-col items-center text-center sm:items-start sm:text-left">
                 <div className="aspect-square bg-white overflow-hidden mb-3">
                   <img 
                     src="/vaseluxenoir.png"
@@ -219,7 +219,7 @@ export function CatalogPage() {
               </div>
               
               {/* Eighth Product - Large Contemporary Mushroom Lamp */}
-              <div className="group cursor-pointer">
+              <div className="group cursor-pointer flex flex-col items-center text-center sm:items-start sm:text-left">
                 <div className="aspect-square bg-white overflow-hidden mb-3">
                   <img 
                     src="/lampeclasse.png"
@@ -241,7 +241,7 @@ export function CatalogPage() {
               </div>
               
               {/* Ninth Product - Cream White Pillow Cases */}
-              <div className="group cursor-pointer">
+              <div className="group cursor-pointer flex flex-col items-center text-center sm:items-start sm:text-left">
                 <div className="aspect-square bg-white overflow-hidden mb-3">
                   <img 
                     src="/pillowcovers.png"
@@ -263,7 +263,7 @@ export function CatalogPage() {
               </div>
               
               {/* Tenth Product - Cream White Bathroom Countertop Accessories */}
-              <div className="group cursor-pointer">
+              <div className="group cursor-pointer flex flex-col items-center text-center sm:items-start sm:text-left">
                 <div className="aspect-square bg-white overflow-hidden mb-3">
                   <img 
                     src="/bathroomset.png"
@@ -285,7 +285,7 @@ export function CatalogPage() {
               </div>
               
               {/* Eleventh Product - Cream White, Accent Throw Pillow */}
-              <div className="group cursor-pointer">
+              <div className="group cursor-pointer flex flex-col items-center text-center sm:items-start sm:text-left">
                 <div className="aspect-square bg-white overflow-hidden mb-3">
                   <img 
                     src="/ballaccent.png"
@@ -307,7 +307,7 @@ export function CatalogPage() {
               </div>
               
               {/* Twelfth Product - "Swirl" Soy Wax Decor Candle */}
-              <div className="group cursor-pointer">
+              <div className="group cursor-pointer flex flex-col items-center text-center sm:items-start sm:text-left">
                 <div className="aspect-square bg-white overflow-hidden mb-3">
                   <img 
                     src="/swirlcandle.png"
@@ -329,7 +329,7 @@ export function CatalogPage() {
               </div>
               
               {/* Thirteenth Product - Heavy Ceramic Table Lamp */}
-              <div className="group cursor-pointer">
+              <div className="group cursor-pointer flex flex-col items-center text-center sm:items-start sm:text-left">
                 <div className="aspect-square bg-white overflow-hidden mb-3">
                   <img 
                     src="/tablelamp.png"
@@ -351,7 +351,7 @@ export function CatalogPage() {
               </div>
               
               {/* Fourteenth Product - Accent Chair */}
-              <div className="group cursor-pointer">
+              <div className="group cursor-pointer flex flex-col items-center text-center sm:items-start sm:text-left">
                 <div className="aspect-square bg-white overflow-hidden mb-3">
                   <img 
                     src="/simplechair.png"
@@ -373,7 +373,7 @@ export function CatalogPage() {
               </div>
               
               {/* Fifteenth Product - Chunky Knit Throw Blanket */}
-              <div className="group cursor-pointer">
+              <div className="group cursor-pointer flex flex-col items-center text-center sm:items-start sm:text-left">
                 <div className="aspect-square bg-white overflow-hidden mb-3">
                   <img 
                     src="/chunky-knit-blanket.png"
@@ -395,7 +395,7 @@ export function CatalogPage() {
               </div>
               
               {/* Sixteenth Product - Irregular Flannel-Wrapped Mirror */}
-              <div className="group cursor-pointer">
+              <div className="group cursor-pointer flex flex-col items-center text-center sm:items-start sm:text-left">
                 <div className="aspect-square bg-white overflow-hidden mb-3">
                   <img
                     src="/funflannelmirror.png"
@@ -417,7 +417,7 @@ export function CatalogPage() {
               </div>
 
               {/* Seventeenth Product - Scented Ribbed Pillar Candle Set */}
-              <div className="group cursor-pointer">
+              <div className="group cursor-pointer flex flex-col items-center text-center sm:items-start sm:text-left">
                 <div className="aspect-square bg-white overflow-hidden mb-3">
                   <img
                     src="/ribbed-pillar-candle-set.png"
@@ -439,7 +439,7 @@ export function CatalogPage() {
               </div>
 
               {/* Eighteenth Product - Travertine Stone Candle Holders */}
-              <div className="group cursor-pointer">
+              <div className="group cursor-pointer flex flex-col items-center text-center sm:items-start sm:text-left">
                 <div className="aspect-square bg-white overflow-hidden mb-3">
                   <img
                     src="/candleholders.png"
@@ -461,7 +461,7 @@ export function CatalogPage() {
               </div>
 
               {/* Nineteenth Product - Lifelike Tulip Stems */}
-              <div className="group cursor-pointer">
+              <div className="group cursor-pointer flex flex-col items-center text-center sm:items-start sm:text-left">
                 <div className="aspect-square bg-white overflow-hidden mb-3">
                   <img
                     src="/tulip-stems-decor.jpg"
@@ -483,7 +483,7 @@ export function CatalogPage() {
               </div>
 
               {/* Twentieth Product - The Vintage Mirror */}
-              <div className="group cursor-pointer">
+              <div className="group cursor-pointer flex flex-col items-center text-center sm:items-start sm:text-left">
                 <div className="aspect-square bg-white overflow-hidden mb-3">
                   <img
                     src="/vintage-mirror copy.jpg"
@@ -505,7 +505,7 @@ export function CatalogPage() {
               </div>
 
               {/* Twenty-First Product - Faux Silk Peonies */}
-              <div className="group cursor-pointer">
+              <div className="group cursor-pointer flex flex-col items-center text-center sm:items-start sm:text-left">
                 <div className="aspect-square bg-white overflow-hidden mb-3">
                   <img
                     src="/faux-silk-peonies-for-decor-bedroom-wedding.png"
@@ -527,7 +527,7 @@ export function CatalogPage() {
               </div>
 
               {/* Twenty-Second Product - Rustic Terracotta Vase */}
-              <div className="group cursor-pointer">
+              <div className="group cursor-pointer flex flex-col items-center text-center sm:items-start sm:text-left">
                 <div className="aspect-square bg-white overflow-hidden mb-3">
                   <img
                     src="/contemporary-rustic-decorative-vase.png"
@@ -549,7 +549,7 @@ export function CatalogPage() {
               </div>
 
               {/* Twenty-Third Product - Smoked Glass Vase */}
-              <div className="group cursor-pointer">
+              <div className="group cursor-pointer flex flex-col items-center text-center sm:items-start sm:text-left">
                 <div className="aspect-square bg-white overflow-hidden mb-3">
                   <img
                     src="/contemporary-clear-smoked-plant-glass-vase.png"
@@ -571,7 +571,7 @@ export function CatalogPage() {
               </div>
 
               {/* Twenty-Fourth Product - Sakura Branches */}
-              <div className="group cursor-pointer">
+              <div className="group cursor-pointer flex flex-col items-center text-center sm:items-start sm:text-left">
                 <div className="aspect-square bg-white overflow-hidden mb-3">
                   <img
                     src="/cherry-blossom-stems-decor-contemporary.png"
