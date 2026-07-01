@@ -569,6 +569,28 @@ export function CatalogPage() {
                   Link
                 </a>
               </div>
+
+              {/* Twenty-Fourth Product - Sakura Branches */}
+              <div className="group cursor-pointer">
+                <div className="aspect-square bg-white overflow-hidden mb-3">
+                  <img
+                    src="/cherry-blossom-stems-decor-contemporary.png"
+                    alt="Sakura Branches"
+                    className="w-full h-full object-contain"
+                  />
+                </div>
+                <h3 className="text-sm font-medium text-gray-900">Sakura Branches</h3>
+                <p className="text-xs text-gray-600 mt-1 mb-2">Faux silk cherry blossom branches with bendable, cuttable stems. Available in white and pink.</p>
+                <a
+                  href="https://www.amazon.com/dp/B0DRV5P78L/ref=twister_B093CNGXJW?_encoding=UTF8&th=1"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="mt-2 inline-flex items-center gap-1.5 px-3 py-1.5 text-xs bg-black text-white rounded-md hover:bg-gray-800 hover:scale-105 transition-all duration-200 ease-in-out shadow-sm hover:shadow-md"
+                >
+                  <img src="/amazon-logo.svg" alt="Amazon" className="w-3 h-3 filter brightness-0 invert" />
+                  Link
+                </a>
+              </div>
             </div>
           </div>
         </div>
