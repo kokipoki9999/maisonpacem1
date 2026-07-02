@@ -591,6 +591,28 @@ export function CatalogPage() {
                   Link
                 </a>
               </div>
+
+              {/* Twenty-Fifth Product - Faux Kiku Flowers & Eucalyptus Arrangement */}
+              <div className="group cursor-pointer flex flex-col items-center text-center sm:items-start sm:text-left">
+                <div className="aspect-square bg-white overflow-hidden mb-3">
+                  <img
+                    src="/kiku-flowers-decor-minimal-contemporary.png"
+                    alt="Faux Kiku Flowers & Eucalyptus Arrangement"
+                    className="w-full h-full object-contain"
+                  />
+                </div>
+                <h3 className="text-sm font-medium text-gray-900">Faux Kiku Flowers & Eucalyptus Arrangement</h3>
+                <p className="text-xs text-gray-600 mt-1 mb-2">10 kiku flower branches and 2 eucalyptus branches bundle. Silk flowers look incredibly lifelike on this one with detailed pom-pom petals. This seller has quite a selection if these flowers are catching your eye. Worth your time.</p>
+                <a
+                  href="https://www.amazon.com/Artificial-Faux-Kiku-Flower-Chrysanthemum-Arrangements-Centerpiece/dp/B0C9DKD79H?ie=UTF8&th=1&linkCode=ll2&tag=maisonpacem05-20&linkId=e23d98fd0333c628d2a3e17acd2d728a&language=en_US&ref_=as_li_ss_tl"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="mt-2 inline-flex items-center gap-1.5 px-3 py-1.5 text-xs bg-black text-white rounded-md hover:bg-gray-800 hover:scale-105 transition-all duration-200 ease-in-out shadow-sm hover:shadow-md"
+                >
+                  <img src="/amazon-logo.svg" alt="Amazon" className="w-3 h-3 filter brightness-0 invert" />
+                  Link
+                </a>
+              </div>
             </div>
           </div>
         </div>
