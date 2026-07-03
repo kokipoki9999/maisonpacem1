@@ -613,6 +613,28 @@ export function CatalogPage() {
                   Link
                 </a>
               </div>
+
+              {/* Twenty-Sixth Product - Set of Tall Single-Stem Vases */}
+              <div className="group cursor-pointer flex flex-col items-center text-center sm:items-start sm:text-left">
+                <div className="aspect-square bg-white overflow-hidden mb-3">
+                  <img
+                    src="/tall-black-brass-vase-duo.png"
+                    alt="Set of Tall Single-Stem Vases"
+                    className="w-full h-full object-contain"
+                  />
+                </div>
+                <h3 className="text-sm font-medium text-gray-900">Set of Tall Single-Stem Vases</h3>
+                <p className="text-xs text-gray-600 mt-1 mb-2">Black, tall modern vases set. Tallest is 15.5" and shortest is 13.7". They're especially flattering on dinner tables.</p>
+                <a
+                  href="https://www.amazon.com/Sziqiqi-Black-Single-Stem-Vase/dp/B0CH9F6ZWL/ref=cm_cr_arp_d_product_top?ie=UTF8&th=1"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="mt-2 inline-flex items-center gap-1.5 px-3 py-1.5 text-xs bg-black text-white rounded-md hover:bg-gray-800 hover:scale-105 transition-all duration-200 ease-in-out shadow-sm hover:shadow-md"
+                >
+                  <img src="/amazon-logo.svg" alt="Amazon" className="w-3 h-3 filter brightness-0 invert" />
+                  Link
+                </a>
+              </div>
             </div>
           </div>
         </div>
