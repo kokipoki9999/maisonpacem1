@@ -635,6 +635,28 @@ export function CatalogPage() {
                   Link
                 </a>
               </div>
+
+              {/* Twenty-Seventh Product - Stone-Look Vase Trio */}
+              <div className="group cursor-pointer flex flex-col items-center text-center sm:items-start sm:text-left">
+                <div className="aspect-square bg-white overflow-hidden mb-3">
+                  <img
+                    src="/minimalist-accent-vase-trio.png"
+                    alt="Stone-Look Vase Trio"
+                    className="w-full h-full object-contain"
+                  />
+                </div>
+                <h3 className="text-sm font-medium text-gray-900">Stone-Look Vase Trio</h3>
+                <p className="text-xs text-gray-600 mt-1 mb-2">Warm ivory, accent vases trio with stone-inspired textured finish. Tallest is 9 inches tall. I believe this is the highest-rated item so far.</p>
+                <a
+                  href="https://www.amazon.com/SincereLuxe-Aesthetic-Stone-Look-Minimalist-Decorative/dp/B0FKZHYLFM?ie=UTF8&th=1&linkCode=ll2&tag=maisonpacem05-20&linkId=b7a0d94092909c4b0fcb05dd1c28d2e9&language=en_US&ref_=as_li_ss_tl"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="mt-2 inline-flex items-center gap-1.5 px-3 py-1.5 text-xs bg-black text-white rounded-md hover:bg-gray-800 hover:scale-105 transition-all duration-200 ease-in-out shadow-sm hover:shadow-md"
+                >
+                  <img src="/amazon-logo.svg" alt="Amazon" className="w-3 h-3 filter brightness-0 invert" />
+                  Link
+                </a>
+              </div>
             </div>
           </div>
         </div>
