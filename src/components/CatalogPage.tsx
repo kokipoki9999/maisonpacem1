@@ -657,6 +657,28 @@ export function CatalogPage() {
                   Link
                 </a>
               </div>
+
+              {/* Twenty-Eighth Product - Accent Sideboard */}
+              <div className="group cursor-pointer flex flex-col items-center text-center sm:items-start sm:text-left">
+                <div className="aspect-square bg-white overflow-hidden mb-3">
+                  <img
+                    src="/contemporary-buffet-sideboard.png"
+                    alt="Accent Sideboard"
+                    className="w-full h-full object-contain"
+                  />
+                </div>
+                <h3 className="text-sm font-medium text-gray-900">Accent Sideboard</h3>
+                <p className="text-xs text-gray-600 mt-1 mb-2">Decorative buffet cabinet with smooth-sliding door system. It can be used in dining rooms, entryways/hallways, as a coffee station, etc. Also available in black and four sizes.</p>
+                <a
+                  href="https://www.amazon.com/Sideboard-Cabinet-Storage-Adjustable-Entryway/dp/B0FLQD585M?pd_rd_w=ovWm9&content-id=amzn1.sym.781fe6e1-9487-4a74-b81e-5a879e5ec273%3Aamzn1.symc.c3d5766d-b606-46b8-ab07-1d9d1da0638a&pf_rd_p=781fe6e1-9487-4a74-b81e-5a879e5ec273&pf_rd_r=YQ1N4S9N25HQWF12JVPQ&pd_rd_wg=YzRKu&pd_rd_r=deaf5964-ce00-4e92-9260-9fe43956c526&pd_rd_i=B0FLQD585M&th=1&linkCode=ll2&tag=maisonpacem05-20&linkId=03bddadf28524a24af7c0c84288b997d&language=en_US&ref_=as_li_ss_tl"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="mt-2 inline-flex items-center gap-1.5 px-3 py-1.5 text-xs bg-black text-white rounded-md hover:bg-gray-800 hover:scale-105 transition-all duration-200 ease-in-out shadow-sm hover:shadow-md"
+                >
+                  <img src="/amazon-logo.svg" alt="Amazon" className="w-3 h-3 filter brightness-0 invert" />
+                  Link
+                </a>
+              </div>
             </div>
           </div>
         </div>
