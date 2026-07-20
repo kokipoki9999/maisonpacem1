@@ -679,6 +679,28 @@ export function CatalogPage() {
                   Link
                 </a>
               </div>
+
+              {/* Twenty-Ninth Product - Framed Wall Art Panels */}
+              <div className="group cursor-pointer flex flex-col items-center text-center sm:items-start sm:text-left">
+                <div className="aspect-square bg-white overflow-hidden mb-3">
+                  <img
+                    src="/wall-art-panels-decor.png"
+                    alt="Framed Wall Art Panels"
+                    className="w-full h-full object-contain"
+                  />
+                </div>
+                <h3 className="text-sm font-medium text-gray-900">Framed Wall Art Panels</h3>
+                <p className="text-xs text-gray-600 mt-1 mb-2">Beautiful selection of art. This seller has a particularly high-rating. if you're looking for art panels, worth your time. They have two sizes available for each frame colour.</p>
+                <a
+                  href="https://www.amazon.com/dp/B0GXJX8659?sp_csd=d2lkZ2V0TmFtZT1zcF9kZXRhaWwy&utm_medium=organic&content-id=amzn1.sym.953c7d66-4120-4d22-a777-f19dbfa69309&pf_rd_p=953c7d66-4120-4d22-a777-f19dbfa69309&pf_rd_r=XE940CH0M8EQRHDGJDBN&pd_rd_wg=gxLAM&pd_rd_w=goyTK&pd_rd_r=9771e01e-e8cf-490f-bbcd-906bdad40189&utm_source=Pinterest&ar_srct=C&creatorsDisableRedirect=true&ar_su=https%3A%2F%2Fa.co%2Fd%2F0eAA9RT1&ar_mt=EXACT_MATCH&th=1&linkCode=ll2&tag=maisonpacem05-20&linkId=08ae88f8522231646580a73ba7580647&language=en_US&ref_=as_li_ss_tl"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="mt-2 inline-flex items-center gap-1.5 px-3 py-1.5 text-xs bg-black text-white rounded-md hover:bg-gray-800 hover:scale-105 transition-all duration-200 ease-in-out shadow-sm hover:shadow-md"
+                >
+                  <img src="/amazon-logo.svg" alt="Amazon" className="w-3 h-3 filter brightness-0 invert" />
+                  Link
+                </a>
+              </div>
             </div>
           </div>
         </div>
