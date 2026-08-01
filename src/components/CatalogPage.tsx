@@ -701,6 +701,28 @@ export function CatalogPage() {
                   Link
                 </a>
               </div>
+
+              {/* Thirtieth Product - Sculptural "Coral" Vase */}
+              <div className="group cursor-pointer flex flex-col items-center text-center sm:items-start sm:text-left">
+                <div className="aspect-square bg-white overflow-hidden mb-3">
+                  <img
+                    src="/art-deco-table-vase-decor.jpg"
+                    alt='Sculptural "Coral" Vase'
+                    className="w-full h-full object-contain"
+                  />
+                </div>
+                <h3 className="text-sm font-medium text-gray-900">Sculptural "Coral" Vase</h3>
+                <p className="text-xs text-gray-600 mt-1 mb-2">Statement ceramic vase with textured finish. 6.7 inches tall and wide. It's available in black as well. Top-rated seller.</p>
+                <a
+                  href="https://www.amazon.com/Ceramic-Decoration-Sculpture-Bohemian-Bookshelf/dp/B0D2RH6M1Y?ie=UTF8&th=1&linkCode=ll2&tag=maisonpacem05-20&linkId=8ab6b6d5f949ef2fc958e9fba0b3fe8b&language=en_US&gaOptInStatus=true&ref_=as_li_ss_tl"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="mt-2 inline-flex items-center gap-1.5 px-3 py-1.5 text-xs bg-black text-white rounded-md hover:bg-gray-800 hover:scale-105 transition-all duration-200 ease-in-out shadow-sm hover:shadow-md"
+                >
+                  <img src="/amazon-logo.svg" alt="Amazon" className="w-3 h-3 filter brightness-0 invert" />
+                  Link
+                </a>
+              </div>
             </div>
           </div>
         </div>
