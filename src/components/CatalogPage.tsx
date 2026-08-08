@@ -723,6 +723,28 @@ export function CatalogPage() {
                   Link
                 </a>
               </div>
+
+              {/* Thirty-First Product - Lys Calla Flowers */}
+              <div className="group cursor-pointer flex flex-col items-center text-center sm:items-start sm:text-left">
+                <div className="aspect-square bg-white overflow-hidden mb-3">
+                  <img
+                    src="/calla-lily-faux-flower-decor copy.png"
+                    alt="Lys Calla Flowers"
+                    className="w-full h-full object-contain"
+                  />
+                </div>
+                <h3 className="text-sm font-medium text-gray-900">Lys Calla Flowers</h3>
+                <p className="text-xs text-gray-600 mt-1 mb-2">Faux soft silicone calla lilies. If you're trying to get "are those real?" comments, it's these. Best seller on the market for calla lilies in my opinion. They have them in white and yellow too.</p>
+                <a
+                  href="https://www.amazon.com/Amore-Florals-Artificial-Centerpieces-Arrangements/dp/B0FFSFJ665?_encoding=UTF8&pd_rd_w=eapQR&content-id=amzn1.sym.a6dce754-9901-41a6-a629-a32800521c61%3Aamzn1.symc.5a16118f-86f0-44cd-8e3e-6c5f82df43d0&pf_rd_p=a6dce754-9901-41a6-a629-a32800521c61&pf_rd_r=7X0BTRFJRPQG0FSC1RQJ&pd_rd_wg=F7iV2&pd_rd_r=7a70190d-afd9-45ae-9040-2a34cfe20b99&th=1&linkCode=ll2&tag=maisonpacem05-20&linkId=2bab9d674a1a8a41821f0c6029a891ae&language=en_US&gaOptInStatus=true&ref_=as_li_ss_tl"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="mt-2 inline-flex items-center gap-1.5 px-3 py-1.5 text-xs bg-black text-white rounded-md hover:bg-gray-800 hover:scale-105 transition-all duration-200 ease-in-out shadow-sm hover:shadow-md"
+                >
+                  <img src="/amazon-logo.svg" alt="Amazon" className="w-3 h-3 filter brightness-0 invert" />
+                  Link
+                </a>
+              </div>
             </div>
           </div>
         </div>
