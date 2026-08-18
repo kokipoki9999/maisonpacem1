@@ -745,6 +745,28 @@ export function CatalogPage() {
                   Link
                 </a>
               </div>
+
+              {/* Thirty-Second Product - Fluted TV Stand */}
+              <div className="group cursor-pointer flex flex-col items-center text-center sm:items-start sm:text-left">
+                <div className="aspect-square bg-white overflow-hidden mb-3">
+                  <img
+                    src="/modern-tv-stand.png"
+                    alt="Fluted TV Stand"
+                    className="w-full h-full object-contain"
+                  />
+                </div>
+                <h3 className="text-sm font-medium text-gray-900">Fluted TV Stand</h3>
+                <p className="text-xs text-gray-600 mt-1 mb-2">Low TV stand with fluted, soft-close doors. Available in two colours and length.</p>
+                <a
+                  href="https://www.amazon.com/Walker-Edison-Walton-Modern-Fluted-Door/dp/B0C54FL3N3?pd_rd_w=g18vP&content-id=amzn1.sym.781fe6e1-9487-4a74-b81e-5a879e5ec273%3Aamzn1.symc.c3d5766d-b606-46b8-ab07-1d9d1da0638a&pf_rd_p=781fe6e1-9487-4a74-b81e-5a879e5ec273&pf_rd_r=0QJ0QGRTRA0N1ZNP0P65&pd_rd_wg=zkPrl&pd_rd_r=fac6ee3f-55b3-4d6f-895b-53b4b0f4a9cb&pd_rd_i=B0C54FL3N3&th=1&utm_source=Pinterest&utm_medium=organic&linkCode=ll2&tag=maisonpacem05-20&linkId=e07a53dd0a00e541c4dca96a350b7a6c&language=en_US&gaOptInStatus=true&ref_=as_li_ss_tl"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="mt-2 inline-flex items-center gap-1.5 px-3 py-1.5 text-xs bg-black text-white rounded-md hover:bg-gray-800 hover:scale-105 transition-all duration-200 ease-in-out shadow-sm hover:shadow-md"
+                >
+                  <img src="/amazon-logo.svg" alt="Amazon" className="w-3 h-3 filter brightness-0 invert" />
+                  Link
+                </a>
+              </div>
             </div>
           </div>
         </div>
