@@ -767,6 +767,28 @@ export function CatalogPage() {
                   Link
                 </a>
               </div>
+
+              {/* Thirty-Third Product - Accent Mirror */}
+              <div className="group cursor-pointer flex flex-col items-center text-center sm:items-start sm:text-left">
+                <div className="aspect-square bg-white overflow-hidden mb-3">
+                  <img
+                    src="/accent-wall-mirror-contemporary.png"
+                    alt="Accent Mirror"
+                    className="w-full h-full object-contain"
+                  />
+                </div>
+                <h3 className="text-sm font-medium text-gray-900">Accent Mirror</h3>
+                <p className="text-xs text-gray-600 mt-1 mb-2">Asymmetrical "functional decor" wall mirror. It's available in black and various sizes. It looks amazing hung vertically as well. You can go headfirst with this one.</p>
+                <a
+                  href="https://www.amazon.com/Bathroom-Mirror-Over-Sink-Gold-Decor/dp/B0DX6JPJ9Z?ie=UTF8&th=1&linkCode=ll2&tag=maisonpacem05-20&linkId=7131849c29e1a8550b99099c79e5764d&language=en_US&gaOptInStatus=true&ref_=as_li_ss_tl"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="mt-2 inline-flex items-center gap-1.5 px-3 py-1.5 text-xs bg-black text-white rounded-md hover:bg-gray-800 hover:scale-105 transition-all duration-200 ease-in-out shadow-sm hover:shadow-md"
+                >
+                  <img src="/amazon-logo.svg" alt="Amazon" className="w-3 h-3 filter brightness-0 invert" />
+                  Link
+                </a>
+              </div>
             </div>
           </div>
         </div>
