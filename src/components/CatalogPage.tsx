@@ -62,7 +62,7 @@ export function CatalogPage() {
             </div>
 
             {/* Product Grid */}
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+            <div className="grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-4 gap-8">
               {/* First Product - Tabletop Water Fountain */}
               <div className="group cursor-pointer flex flex-col items-center text-center sm:items-start sm:text-left">
                 <div className="aspect-square bg-white overflow-hidden mb-3">
