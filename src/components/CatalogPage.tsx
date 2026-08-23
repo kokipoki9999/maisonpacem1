@@ -67,7 +67,7 @@ export function CatalogPage() {
               <div className="group cursor-pointer flex flex-col items-center text-center sm:items-start sm:text-left">
                 <div className="aspect-square bg-white overflow-hidden mb-3">
                   <img 
-                    src="/water-fountain-home-decor.png"
+                    src="/fancyfountaindecor.jpg"
                     alt="Tabletop Water Fountain"
                     className="w-full h-full object-contain"
                   />
