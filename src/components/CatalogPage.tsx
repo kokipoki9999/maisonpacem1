@@ -62,7 +62,7 @@ export function CatalogPage() {
             </div>
 
             {/* Product Grid */}
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+            <div className="grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-4 gap-8">
               {/* First Product - Tabletop Water Fountain */}
               <div className="group cursor-pointer flex flex-col items-center text-center sm:items-start sm:text-left">
                 <div className="aspect-square bg-white overflow-hidden mb-3">
@@ -332,13 +332,13 @@ export function CatalogPage() {
               <div className="group cursor-pointer flex flex-col items-center text-center sm:items-start sm:text-left">
                 <div className="aspect-square bg-white overflow-hidden mb-3">
                   <img 
-                    src="/tablelamp.png"
-                    alt="Heavy Ceramic Table Lamp"
+                    src="/wide-belly-table-vase.png"
+                    alt="The Heart Vase"
                     className="w-full h-full object-contain"
                   />
                 </div>
-                <h3 className="text-sm font-medium text-gray-900">Heavy Ceramic Table Lamp</h3>
-                <p className="text-xs text-gray-600 mt-1 mb-2">Modern table lamp with a fabric shade, cracked ceramic design detail on base, measuring 53cm tall and 45cm wide—sized right for a living room side table, bedroom nightstand, or study. Comes with a 12W LED bulb and push-button switch for easy use at night or morning. No complicated setup—the lamp arrives pre-assembled: just flip the shade down, set it on the base, screw in the included light bulb, plug it in and you're set. Available in two color combinations. This is a heavy and large accent lamp. From what I see, almost everyone is pleased except for 3-ish people.</p>
+                <h3 className="text-sm font-medium text-gray-900">The Heart Vase</h3>
+                <p className="text-xs text-gray-600 mt-1 mb-2">A fairly heavy ceramic vase with non-slip pads at the bottom of the base. It's waterproof treated so you can use it with fresh flowers. Each piece is handmade so the appearance may vary slightly from vase to vase. And you won't believe the price.</p>
                 <a 
                   href="https://www.amazon.com/Living-lampshade-Bedroom-Ceramic-Bedside/dp/B09992PYYX?ie=UTF8&th=1&linkCode=ll1&tag=maisonpacem05-20&linkId=86a3496fe7b7dbf9fb909ddbe21043b0&language=en_US&ref_=as_li_ss_tl"
                   target="_blank"
@@ -781,28 +781,6 @@ export function CatalogPage() {
                 <p className="text-xs text-gray-600 mt-1 mb-2">Asymmetrical "functional decor" wall mirror. It's available in black and various sizes. It looks amazing hung vertically as well. You can go headfirst with this one.</p>
                 <a
                   href="https://www.amazon.com/Bathroom-Mirror-Over-Sink-Gold-Decor/dp/B0DX6JPJ9Z?ie=UTF8&th=1&linkCode=ll2&tag=maisonpacem05-20&linkId=7131849c29e1a8550b99099c79e5764d&language=en_US&gaOptInStatus=true&ref_=as_li_ss_tl"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="mt-2 inline-flex items-center gap-1.5 px-3 py-1.5 text-xs bg-black text-white rounded-md hover:bg-gray-800 hover:scale-105 transition-all duration-200 ease-in-out shadow-sm hover:shadow-md"
-                >
-                  <img src="/amazon-logo.svg" alt="Amazon" className="w-3 h-3 filter brightness-0 invert" />
-                  Link
-                </a>
-              </div>
-
-              {/* Thirty-Fourth Product - Coral Wall Art */}
-              <div className="group cursor-pointer flex flex-col items-center text-center sm:items-start sm:text-left">
-                <div className="aspect-square bg-white overflow-hidden mb-3">
-                  <img
-                    src="/wall-decor-contemporary.png"
-                    alt="Coral Wall Art"
-                    className="w-full h-full object-contain"
-                  />
-                </div>
-                <h3 className="text-sm font-medium text-gray-900">Coral Wall Art</h3>
-                <p className="text-xs text-gray-600 mt-1 mb-2">Textured, "organic" wall art. These come in a set of 3.</p>
-                <a
-                  href="https://www.amazon.com/Creative-Co-Op-Handmade-White-Shaped/dp/B0B34KK89P?ie=UTF8&linkCode=ll2&tag=maisonpacem05-20&linkId=c1da028716b2f08da2ddcd8270e96234&language=en_US&gaOptInStatus=true&ref_=as_li_ss_tl"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="mt-2 inline-flex items-center gap-1.5 px-3 py-1.5 text-xs bg-black text-white rounded-md hover:bg-gray-800 hover:scale-105 transition-all duration-200 ease-in-out shadow-sm hover:shadow-md"
