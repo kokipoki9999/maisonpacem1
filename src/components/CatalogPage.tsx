@@ -332,7 +332,7 @@ export function CatalogPage() {
               <div className="group cursor-pointer flex flex-col items-center text-center sm:items-start sm:text-left">
                 <div className="aspect-square bg-white overflow-hidden mb-3">
                   <img 
-                    src="/tablelamp.png"
+                    src="/wide-belly-table-vase.png"
                     alt="Heavy Ceramic Table Lamp"
                     className="w-full h-full object-contain"
                   />
