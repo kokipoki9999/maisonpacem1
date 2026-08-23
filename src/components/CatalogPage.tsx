@@ -333,12 +333,12 @@ export function CatalogPage() {
                 <div className="aspect-square bg-white overflow-hidden mb-3">
                   <img 
                     src="/wide-belly-table-vase.png"
-                    alt="Heavy Ceramic Table Lamp"
+                    alt="The Heart Vase"
                     className="w-full h-full object-contain"
                   />
                 </div>
-                <h3 className="text-sm font-medium text-gray-900">Heavy Ceramic Table Lamp</h3>
-                <p className="text-xs text-gray-600 mt-1 mb-2">Modern table lamp with a fabric shade, cracked ceramic design detail on base, measuring 53cm tall and 45cm wide—sized right for a living room side table, bedroom nightstand, or study. Comes with a 12W LED bulb and push-button switch for easy use at night or morning. No complicated setup—the lamp arrives pre-assembled: just flip the shade down, set it on the base, screw in the included light bulb, plug it in and you're set. Available in two color combinations. This is a heavy and large accent lamp. From what I see, almost everyone is pleased except for 3-ish people.</p>
+                <h3 className="text-sm font-medium text-gray-900">The Heart Vase</h3>
+                <p className="text-xs text-gray-600 mt-1 mb-2">A fairly heavy ceramic vase with non-slip pads at the bottom of the base. It's waterproof treated so you can use it with fresh flowers. Each piece is handmade so the appearance may vary slightly from vase to vase. And you won't believe the price.</p>
                 <a 
                   href="https://www.amazon.com/Living-lampshade-Bedroom-Ceramic-Bedside/dp/B09992PYYX?ie=UTF8&th=1&linkCode=ll1&tag=maisonpacem05-20&linkId=86a3496fe7b7dbf9fb909ddbe21043b0&language=en_US&ref_=as_li_ss_tl"
                   target="_blank"
