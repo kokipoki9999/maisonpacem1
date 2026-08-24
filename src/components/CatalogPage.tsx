@@ -340,7 +340,7 @@ export function CatalogPage() {
                 <h3 className="text-sm font-medium text-gray-900">The Heart Vase</h3>
                 <p className="text-xs text-gray-600 mt-1 mb-2">A fairly heavy ceramic vase with non-slip pads at the bottom of the base. It's waterproof treated so you can use it with fresh flowers. Each piece is handmade so the appearance may vary slightly from vase to vase. And you won't believe the price.</p>
                 <a 
-                  href="https://www.amazon.com/Living-lampshade-Bedroom-Ceramic-Bedside/dp/B09992PYYX?ie=UTF8&th=1&linkCode=ll1&tag=maisonpacem05-20&linkId=86a3496fe7b7dbf9fb909ddbe21043b0&language=en_US&ref_=as_li_ss_tl"
+                  href="https://www.amazon.com/Ceramic-Vintage-Terracotta-Farmhouse-Fireplace/dp/B0GBWZWLCH?pd_rd_i=B0GBWZWLCH&pd_rd_w=t2Z0G&content-id=amzn1.sym.4a6480f2-00b3-4e33-a59d-ae768449426b&pf_rd_p=4a6480f2-00b3-4e33-a59d-ae768449426b&pf_rd_r=WSTT3CEVMNS9RNFSZK0K&pd_rd_wg=mPVwF&pd_rd_r=5ffdd193-7ff4-487d-8051-b4b8226d00eb&th=1&linkCode=ll2&tag=maisonpacem05-20&linkId=733379e917aa87859ca72844d7fccebb&language=en_US&gaOptInStatus=true&ref_=as_li_ss_tl"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="mt-2 inline-flex items-center gap-1.5 px-3 py-1.5 text-xs bg-black text-white rounded-md hover:bg-gray-800 hover:scale-105 transition-all duration-200 ease-in-out shadow-sm hover:shadow-md"
